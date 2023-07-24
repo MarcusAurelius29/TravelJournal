@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+.navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6060; /* Change this to your desired background color */
+  padding: 10px;
+  color: #ffffff; /* Change this to your desired text color */
+}
+
+/* Style the image */
+.globe {
+  width: 30px; /* Adjust the size to your preference */
+  height: 30px;
+  margin-right: 10px; /* Add some spacing between the image and the heading */
+}
+
+/* Style the heading */
+h1 {
+  font-size: 24px; /* Change this to your desired font size */
+  font-weight: bold;
+}
+
+
+
+/* Style the card container */
+.card-container {
+  width: 300px; /* Adjust the width to your preference */
+  height: 400px; /* Set a fixed height for all cards */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure the card content stays within the rounded corners */
+  background-color: #ffffff;
+}
+
+/* Style the card image */
+.card-image {
+  width: 100%; /* Adjust the image width to fit the card container */
+  height: 200px; /* Set a fixed height for the card image */
+  object-fit: cover; /* Ensure the image covers the container and maintains aspect ratio */
+  border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+}
+
+/* Style the heading */
+h3.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin: 15px 10px 5px; /* Add spacing around the title */
+}
+
+/* Style the location and icon container */
+.location-and-icon {
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  margin: 10px; /* Add some spacing around the location and icon container */
+}
+
+/* Style the location icon */
+.location-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Style the location section */
+p.location {
+  font-size: 14px;
+  color: #666666;
+  margin: 0 10px 10px; /* Add some spacing around the location paragraph */
+}
+
+/* Style the start and end date section */
+.start-end-date {
+  display: flex;
+  justify-content: space-between;
+  color: #666666;
+  margin: 0 10px 10px; /* Add some spacing around the date section */
+}
+
+/* Style the individual dates */
+p.start-date,
+p.end-date {
+  font-size: 14px;
+}
+
+/* Style the description */
+p.description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444444;
+  margin: 0 10px; /* Add spacing around the description */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show up to 3 lines of description */
+  -webkit-box-orient: vertical;
+}
+
+/* Style the card array container */
+.card-array {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px; /* Adjust the gap between cards to your preference */
+}
